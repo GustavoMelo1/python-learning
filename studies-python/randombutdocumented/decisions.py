@@ -5,7 +5,6 @@
 #elif = middle ground — checked only if if was false
 
 nota = 4
-
 #Simple pass/fail check
 if nota >= 7:
     print("Aprovado")
@@ -21,7 +20,6 @@ else:
     print("Aprovado")
 
 gustavo = 7
-
 #Decision based on a numeric range
 if gustavo == 4:
     print("Vai ficar em casa")

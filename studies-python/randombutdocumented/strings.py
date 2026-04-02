@@ -1,7 +1,6 @@
 #Strings are sequences of characters that support slicing to extract subsets by index and step.
 
 s = 'abcdefg'
-
 #Slicing from index 0 to end
 s[0:]    #'abcdefg'
 

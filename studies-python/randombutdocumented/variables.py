@@ -11,6 +11,5 @@ porcentagem_taxa = 0.1
 #Mathematical operations between variables
 total_taxa_mes = dinheiro * porcentagem_taxa
 imposto = total_taxa_mes
-
 print(imposto)
 #125.0

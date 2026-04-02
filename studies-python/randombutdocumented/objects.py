@@ -3,13 +3,11 @@
 #Objects are essentially the value stored inside a variable
 
 idade = 25
-
 #Calling methods on an int object
 print(idade.bit_length())  #How many bits to represent 25 (5 bits)
 print(type(idade))         #Returns the class: <class 'int'>
 
 numeros = [1, 2, 3]
-
 #'mensagem' is the variable — "Olá Python" is the object
 mensagem = "Olá Python"
 
@@ -19,7 +17,6 @@ print(mensagem.split(' '))
 print(len(mensagem))
 
 texto = "Explorando"
-
 #Listing all available methods for a string object
 print(dir(texto))
 
