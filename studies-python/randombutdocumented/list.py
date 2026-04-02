@@ -1,8 +1,13 @@
-#LISTS
+#Lists are ordered, mutable sequences that store multiple values and support indexing and slicing.
 
 my_list = ['a', 'b', 'c', 'd', 'e']
 
-my_list.append('f') # adding a 'f' to the list
-print(my_list) # ['a', 'b', 'c', 'd', 'e', 'f']
+#Adding an element to the end of the list
+my_list.append('f')
+print(my_list)
 
-print(my_list[0:3]) # ['a', 'b', 'c']
+#Accessing a range of elements by index
+print(my_list[0:3])
+
+#['a', 'b', 'c', 'd', 'e', 'f']
+#['a', 'b', 'c']

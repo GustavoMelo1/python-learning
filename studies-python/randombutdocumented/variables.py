@@ -1,17 +1,18 @@
 #VARIÁVEIS
+# VARIABLES: NAMED STORAGE FOR DIFFERENT DATA TYPES
 
-#TEXTO (String). Ex: Nome
-#Inteiro: Ex: Idade
-#Float. Ex: Altura
-#Logica: Ex: Falso(Transação fraudulenta)
-
+# TEXT (String). Ex: Name
+# Integer (Int). Ex: Age
+# Float (Decimal). Ex: Height
+# Logic (Boolean). Ex: False/True (Fraud detection)
 
 dinheiro = 1250
 porcentagem_taxa = 0.1
+
+# Mathematical operations between variables
 total_taxa_mes = dinheiro * porcentagem_taxa
 imposto = total_taxa_mes
 
-print (imposto)
-
+print(imposto)
 
 
